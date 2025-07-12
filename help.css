@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  color: #333;
+}
+
+.help-container {
+  max-width: 500px;
+  background: white;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2193b0;
+}
+
+section {
+  margin-top: 25px;
+}
+
+h2 {
+  color: #197aa1;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 0;
+}
+
+a {
+  color: #197aa1;
+  text-decoration: none;
+}
+
+.faq-item {
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 4px solid #2193b0;
+  background: #f5faff;
+  border-radius: 8px;
+}
+
+.faq-question {
+  margin: 0;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.back-button-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.back-button-container button {
+  background-color: #2193b0;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button-container button:hover {
+  background-color: #197aa1;
+}
